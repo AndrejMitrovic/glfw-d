@@ -78,6 +78,8 @@ extern(C): @nogc: nothrow: __gshared: export:
  *************************************************************************/
 
 version (GLFW_EXPOSE_NATIVE_WIN32) {
+import glfw3.api;
+import core.sys.windows.windows;
 /** Returns the adapter device name of the specified monitor.
  *
  *  Returns: The UTF-8 encoded adapter device name (for example `\\.\DISPLAY1`)

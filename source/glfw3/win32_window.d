@@ -2133,6 +2133,7 @@ VkResult _glfwPlatformCreateWindowSurface(VkInstance instance, _GLFWwindow* wind
     return err;
 }
 
+extern(C): @nogc: nothrow: __gshared: export:
 
 //////////////////////////////////////////////////////////////////////////
 //////                        GLFW native API                       //////
